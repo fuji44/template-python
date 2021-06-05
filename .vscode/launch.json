@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current module",
+      "type": "python",
+      "request": "launch",
+      "module": "projectname.${fileBasenameNoExtension}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Debug Unit Test",
+      "type": "python",
+      "request": "test",
+      "justMyCode": false
+    }
+  ]
+}
