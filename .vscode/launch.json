@@ -6,13 +6,14 @@
       "type": "python",
       "request": "launch",
       "module": "projectname.${fileBasenameNoExtension}",
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "justMyCode": true  // Set to false if you want to debug dependent libraries
     },
     {
       "name": "Debug Unit Test",
       "type": "python",
       "request": "test",
-      "justMyCode": false
+      "justMyCode": true
     }
   ]
 }
